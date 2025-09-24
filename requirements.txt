@@ -1,1 +1,2 @@
-highrise
+discord.py
+highrise-bot
