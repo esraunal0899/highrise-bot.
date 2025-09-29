@@ -2,8 +2,8 @@ import os
 import asyncio
 from highrise import BaseBot, Position, main as highrise_main
 
-HIGHRISE_TOKEN = os.getenv("HIGHRISE_TOKEN")
-HIGHRISE_ROOM_ID = os.getenv("HIGHRISE_ROOM_ID")
+HIGHRISE_TOKEN = os.getenv("BOT_TOKEN")  
+HIGHRISE_ROOM_ID = os.getenv("ROOM_ID")  
 
 
 class MyBot(BaseBot):
